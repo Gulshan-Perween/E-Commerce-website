@@ -1,0 +1,12 @@
+<? php
+   
+   if(server[request_method=="post"]){
+    if(empty($_post["name"])){
+        $namerr="name is required";
+
+    }
+    else{
+        $name=test_input($_posst["name"])
+    }
+   }
+ 
